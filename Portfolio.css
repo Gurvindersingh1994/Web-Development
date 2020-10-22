@@ -4,11 +4,9 @@
   font-family: "Fira Sans", sans-serif;
   box-sizing: border-box;
 }
-
 body {
   background-color: #c0c0c0;
 }
-
 .navBar {
   display: flex;
   justify-content: space-around;
