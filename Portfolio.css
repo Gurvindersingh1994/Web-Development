@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0c0c0;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  padding: 8px;
+  background-color: black;
+}
+
+.navBar .logo {
+  border-color: #c0c0c0;
+  text-transform: uppercase;
+  border-style: double;
+  border-radius: 5%;
+}
+
+.navBar .logo:hover {
+  transform: scale(1.1);
+}
+
+.navBar .logo a {
+  font-size: 2em;
+  color: #c0c0c0;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.navBar .logo a span {
+  color: #213fed;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.navBar .menu {
+  margin-left: 400px;
+}
+
+.navBar .menu li {
+  padding: 10px 15px;
+  list-style: none;
+  display: inline;
+}
+
+.navBar .menu a {
+  color: #c0c0c0;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.navBar .menu li:hover {
+  transform: scale(1.1);
+}
+
+.menuBtn {
+  display: none;
+}
+.menuBtn div {
+  width: 25px;
+  height: 3px;
+  margin: 6px;
+  background-color: #c0c0c0;
+}
+
+.navBar .menu {
+  font-weight: bold;
+}
+
+.homeSection {
+  display: flex;
+  font-family: monospace;
+}
+
+.homeContent p {
+  color: #c0c0c0;
+}
+
+.homeSection img {
+  border-radius: 100px;
+  padding-top: 100px;
+}
+
+.homeSection .homeContent .Line-1 {
+  margin-top: 280px;
+  margin-left: 250px;
+  display: flex;
+  justify-content: right;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.homeSection .homeContent .Line-2 {
+  margin-left: 290px;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.Line-3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4em;
+  color: #213fef;
+}
+
+.secondSection {
+  padding: 10px 10px;
+  height: 500px;
+  max-width: 100%;
+  margin-top: 10px;
+  padding: 20px 20px;
+}
+
+#About {
+  color: #c0c0c0;
+}
+
+.secondSection .heading {
+  margin-left: 20px;
+  border-bottom: #400040;
+  border-bottom-style: solid;
+  text-align: center;
+  color: black;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.Mini-heading {
+  text-align: center;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.embeddedContent {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 600px;
+  height: 450px;
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.text ul {
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 20px;
+  padding: 5px 20px;
+}
+
+.skills {
+  padding: 10px 10px;
+  font-size: 0.8em;
+  width: auto;
+  margin: 10px 10px;
+  color: black;
+  list-style-type: none;
+}
+
+.skills p:nth-child(2) {
+  font-weight: bold;
+  color: black;
+  float: right;
+  position: relative;
+  right: 30px;
+  bottom: 17px;
+  font-size: 0.9em;
+}
+.skills li {
+  margin: 10px 0;
+  color: black;
+}
+
+.bar {
+  background: #c0c0c0;
+  display: block;
+  height: 7px;
+  max-width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #000080;
+}
+
+.bar span {
+  height: 7px;
+  float: left;
+  background: #400040;
+}
+
+.C {
+  width: 80%;
+  animation: C 3s forwards;
+}
+
+.C_plus_plus {
+  width: 70%;
+  animation: C_plus_plus 3s forwards;
+}
+.PCB_Designing {
+  width: 75%;
+  animation: PCB_Designing 3s forwards;
+}
+.Communication_Protocal {
+  width: 65%;
+  animation: Communication_Protocal 3s forwards;
+}
+
+.MplabIDE {
+  width: 85%;
+  animation: MplabIDE 3s forwards;
+}
+
+@keyframes C {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes C_plus_plus {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes PCB_Designing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes Communication_Protocal {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes MplabIDE {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.webDeveloperContent {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 600px;
+  height: 450px;
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.html {
+  width: 75%;
+  animation: html 3s forwards;
+}
+
+.CSS {
+  width: 75%;
+  animation: CSS 3s forwards;
+}
+.javaScript {
+  width: 60%;
+  animation: javaScript 3s forwards;
+}
+
+.VScodeEditor {
+  width: 73%;
+  animation: VScodeEditor 3s forwards;
+}
+
+.bracketsEditor {
+  width: 65%;
+  animation: bracketsEditor 3s forwards;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes CSS {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes javaScript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes VScodeEditor {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 73%;
+  }
+}
+@keyframes bracketsEditor {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.footer {
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+  background: black;
+}
+
+.footer h1 {
+  border-bottom: #400040;
+  border-bottom-style: solid;
+  text-align: center;
+  color: #c0c0c0;
+  font-weight: bold;
+  font-size: 2em;
+}
+.footer a {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #c0c0c0;
+  font-weight: bold;
+}
+
+.footer h4 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #c0c0c0;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .menu {
+    position: absolute;
+    width: 50%;
+    right: 0px;
+    height: 100vh;
+    top: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.7s;
+  }
+
+  .menuBtn {
+    margin-left: 150px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuBtn:hover {
+    transform: scale(1.1);
+  }
+
+  .homeSection img {
+    width: 55vw;
+    height: 480px;
+    border-radius: 0;
+    position: relative;
+    bottom: 120px;
+    right: 80px;
+  }
+
+  .homeSection .homeContent .Line-1 {
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+    font-size: 1.6em;
+    display: flex;
+  }
+
+  .homeSection .homeContent .Line-2 {
+    position: absolute;
+    bottom: 160px;
+    right: 10px;
+    font-size: 1.6em;
+  }
+
+  .Line-3 {
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+    right: -10px;
+    font-weight: bold;
+    font-size: 2.1em;
+  }
+
+  .secondSection .heading {
+    text-align: left;
+    padding-left: 15px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .Mini-heading {
+    text-align: left;
+    color: black;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  }
+
+  .embeddedContent {
+    padding: 10px 10px;
+    width: 450px;
+    height: auto;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .text ul {
+    margin-top: 10px;
+    font-size: 1em;
+    line-height: 20px;
+    padding: 5px 20px;
+  }
+
+  .webDeveloperContent {
+    box-sizing: border-box;
+    padding: 20px 10px;
+    width: 450px;
+    float: left;
+    height: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .footer {
+    float: left;
+    width: 490px;
+    height: auto;
+    box-sizing: border-box;
+  }
+}
+.menuActive {
+  transform: translateX(0%);
+}
