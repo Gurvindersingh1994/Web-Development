@@ -427,7 +427,7 @@ body {
   }
 
   .Line-3 {
-    width: 100%;
+    width: 110%;
     position: absolute;
     bottom: 100px;
     right: -10px;
@@ -446,7 +446,7 @@ body {
 
   .Mini-heading {
     text-align: left;
-    color: black;
+    /* color: black; */
     margin-bottom: 5px;
     padding-left: 20px;
   }
